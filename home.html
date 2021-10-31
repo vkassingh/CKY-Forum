@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+<link rel="stylesheet" type="text/css" href="/style.css">
+  <script src="https://use.fontawesome.com/63d20f8d5f.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src='/script.js'></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <div class="head_container">
+      <div class="logo">
+        <h3 id="brand-name"><img src="https://www.codekaroyaaro.com/img/basic-coding-for-kids.png">Forum</h3>
+      </div>
+      <div class="menu" id="myTopnav">
+        <ul>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()">&#9776;</a>
+          
+<!--           <li><a href="#"><i class="fas fa-users"></i> Users</a></li> -->
+          <li><a href="#"><i class="fas fa-tags"></i> Tags </a></li>
+          <li><input id="search" type="text" placeholder="  Search..."></li>
+
+          <li></li>
+          <li><a href="#"> <i class="fas fa-globe"></i> Translate</a></li>
+          <li><a href="askQues.html"><button  id="add-ques">Ask Question</button></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<!--     <a href="#"><i class="fas fa-users"></i> Users</a> -->
+    <a href="#"><i class="fas fa-tags"></i> Tags </a>
+    <a href="#"> <i class="fa fa-filter"></i>Filter</a>
+    <a href="#"> <i class="fas fa-globe"></i> Translate</a>
+    <a href="askQues.html"><button  id="add-ques">Ask Question</button></a>
+  </div>
+
+  <!--Orange navbar here-->
+  <nav>
+    <div class="navbar" id="topnavbar">
+      <span><a href="#">All Questions</a></span>
+<!--       <span><a href="#">Trending</a></span> -->
+      <span><a href="#">Latest</a></span>
+      <span><a href="#">Unanswered</a></span>
+<!--       <span><a href="#">Bounty Questions</a></span> -->
+      <span> <button type="button" name="button" id="filter">
+          Filter <i class="fa fa-filter" aria-hidden="true"></i>
+        </button><span>
+
+  </nav>
+
+ 
+
+  <!--CARD QUESTIONS HERE--->
+         <div class="allcards">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg 3 col-md-12  col-xs-12">
+        <div id="id1" class="card ">
+          <div class="card-body text-primary" id="c">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/laptop-user-1-1179329.png"  id="c1">
+            <p class="card-title" id="c2">Vikas Singh</p>
+            <div class="content_img">
+              <img src="Group 3.png" id="c3">
+              <div>Verified Account</div>
+            </div>
+            <a href="#" id="c4">Follow</a><br>
+            <span id="c5">IP University</span><br>
+            <p class="card-text" id="c6"><h2>How to master javascript?</h2></p><br>
+            <p id="c7">I want to learn javascript and master it. Please share some good resources to learn.
+            </p>
+          <a>Read answers</a><br>
+            <a href="#" id="c8"><b id="id2">2.3</b>K Answers</a>           
+          <a href="#" id="c8" style="margin-left:150px;"><b id="id3">2.9</b>K Votes</a><br>
+            <a href="#" class="btn btn-primary" id="c9">Javascript</a>
+          <a href="#" class="btn btn-dark" id="c9">Web Development</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div><br>
+
+        <!--CARD QUESTIONS HERE--->
+
+ <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg 3 col-md-12  col-xs-12">
+        <div id="id1" class="card ">
+          <div class="card-body text-primary" id="c">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/laptop-user-1-1179329.png" id="c1">
+            <p class="card-title" id="c2">Ravi Mishra</p>
+            <div class="content_img">
+              <img src="Group 3.png" id="c3">
+              <div>Verified Account</div>
+            </div>
+            <a href="#" id="c4">Follow</a><br>
+            <span id="c5">student at KV, Delhi</span><br>
+            <p class="card-text" id="c6"><h2>What are the most important topics for reactJs</h2></p><br>
+            <p id="c7">I am an absolute beginner in react. Please tell how to learn it.
+            </p>
+          <a>Read answers</a><br>
+            <a href="#" id="c8"><b id="id2">1.2</b>K Answers</a>
+            <a href="#" id="c8" style="margin-left:150px;"><b id="id3">1.7</b>K Votes</a><br>
+          <a href="#" class="btn btn-success" id="c9">ReactJS</a>
+            <a href="#" class="btn btn-dark" id="c9">Frameworks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+         </div>
+       </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+      
+      <!--Footer here-->
+        <footer class="footer">
+  <a class="" href="#"><p>Home</p></a>
+    
+   <a class="" href="#l"><p>About Us</p></a>
+   <a class="" href="#"><p>Contact Us</p></a>
+   <a class="" href="#"><p>Email: info@codekaroyaaro.com</p></a>
+<a class="" href="#"><p>Address : H NO. 1951, Near Water Tank Annamod, Khaparkheda, Nagpur, Maharashtra, 441102 Us</p></a>
+   </div>
+    <p>&copy Code Karo Yaaro, 2021 | All Rights Reserved<br>
+    
+    </p></footer>
+      </body>
+
+
+
+</html>
