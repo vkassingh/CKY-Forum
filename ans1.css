@@ -64,7 +64,7 @@ header {
   padding-left: 15px;
   padding-right: 15px;
 }
-.menu a:hover {
+.menu .anc:hover {
   background-color: #f5e1d9;
   border: #ee400e;
   border-radius: 20px;
@@ -153,7 +153,7 @@ menu.responsive {
   margin-left: 50px;
 }
 
-#brand-name {
+#brand-name a{
   color: #ee400e;
 }
 
