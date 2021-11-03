@@ -49,7 +49,7 @@ header {
 }
 .menu ul {
   list-style-type: none;
-  margin-right: -10px;
+  margin-right: -5px;
 }
 .menu li {
   display: inline;
@@ -63,9 +63,9 @@ header {
   padding-left: 15px;
   padding-right: 15px;
 }
-.menu a:hover {
+.menu .anc:hover {
   background-color: #f5e1d9;
-  border: #ee400e;
+  border: 1px solid #ee400e;
   border-radius: 20px;
   border-style: solid;
   border-width: 2px;
@@ -134,11 +134,10 @@ menu.responsive {
   font-size: 25px;
   color: #ee400e;
   display: block;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
-.sidenav a:hover,
-.offcanvas a:focus {
+.sidenav a:hover, .offcanvas a:focus {
   color: #ee400e;
 }
 
@@ -150,13 +149,13 @@ menu.responsive {
   margin-left: 50px;
 }
 
-#brand-name {
+#brand-name a{
   color: #ee400e;
 }
 
 #add-ques {
-  background: linear-gradient(264.95deg, rgba(255, 252, 252, 0.2) 0%, rgba(255, 252, 252, 0) 54.06%), linear-gradient(267.12deg, rgba(251, 254, 83, 0.3) 48.01%, rgba(255, 255, 255, 0) 92.65%), #EE520F;
-            
+  
+  background: linear-gradient(264.95deg, rgba(255, 252, 252, 0.2) 0%, rgba(255, 252, 252, 0) 54.06%), linear-gradient(267.12deg, rgba(251, 254, 83, 0.3) 48.01%, rgba(255, 255, 255, 0) 92.65%), #EE520F;            
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   width: 65px;
   font-style: normal;
@@ -181,8 +180,6 @@ menu.responsive {
   border-radius: 24px;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 2px 4px 1px rgb(0 0 0 / 9%);
   border: 1px solid grey;
- 
-  
 }
 
 
@@ -207,7 +204,7 @@ nav .navbar{
 
 span a{
    color: white;
-  font-size: 17.5px;
+   font-size: 17.5px;
 }
 
  #filter{
@@ -234,7 +231,6 @@ span a{
     #id1 {
       position: relative;
       height: 100%;
-
       background: #FFFFFF;
       border: 1px solid #C8C5C5;
       box-sizing: border-box;
@@ -253,14 +249,27 @@ span a{
       color: #000000;
     }
 
-    #c3 {
+    #cc{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin-bottom: 4.5rem;
+    }
+
+    #c3{
+      border: 2px solid #28B505;
+      color: #28B505;
+      border-radius: 30%;
+      padding: 1px;
+    }
+    /* #c3 {
       float: left;
       border: 2px solid #28B505;
       display: inline;
       position: relative;
       top: -40px;
       left: 200px;
-    }
+    } */
 
     #c4 {
       
@@ -302,6 +311,11 @@ span a{
       line-height: 23px;
       color: #000000;
       float: left;
+      margin-right: 5px;
+    }
+
+    .readAns:hover{
+      text-decoration: underline !important;
     }
 
     #c8 {
@@ -317,13 +331,19 @@ span a{
 
     #c9 {}
 
-    
+    .content_img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0rem 2rem 1rem;
+    }
     .content_img div {
       position: relative;
-      left: 100px;
-      background: rgb(0, 0, 0);
+      left: 15px;
+      bottom: 10px;
+      font-size: smaller;
+      background: gray;
       color: rgb(243, 233, 233);
-      margin-bottom: 5px;
       font-family: sans-serif;
       opacity: 0;
       visibility: hidden;
@@ -331,24 +351,22 @@ span a{
       transition: visibility 0s, opacity 0.5s linear;
     }
 
-    .content_img:hover {
+    /* .content_img i:hover {
       cursor: pointer;
-    }
+    } */
 
     .content_img:hover div {
-      width: 150px;
-      padding: 8px 15px;
+      width: 120px;
+      padding: 1px 2px;
       visibility: visible;
       opacity: 1;
+      border-radius: 5px;
+      text-align: center;
     }
-
-   
-
-}
 
 .sidencard{
   display: flex;
-  justify content: space-between;
+  justify-content: space-between;
   flex-direction: row;
 }
 /*dark mode toggle here*/
