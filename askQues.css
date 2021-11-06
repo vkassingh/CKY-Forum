@@ -348,4 +348,9 @@ a:hover:after {
 
 #title{
   width:400px;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+  outline: none;
+ 
+  
 }

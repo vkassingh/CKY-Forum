@@ -203,7 +203,7 @@ menu.responsive {
 }
 
 input[type=text]:focus {
-/* 	width: 50% !important; */
+
   border: 2px solid #218bff !important;
   background: white !important;
   box-shadow: #58cced 0px 7px 15px 0px !important;
@@ -348,4 +348,9 @@ a:hover:after {
 
 #title{
   width:400px;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+  outline: none;
+ 
+  
 }
