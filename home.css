@@ -169,18 +169,37 @@ menu.responsive {
   border-radius: 20px;
 }
 
+/*Top header search bar */
 
 #search{
-  height: 32x;
-  width:300px;
+  font-size: 14px;
+  line-height: 20px;
+  height: 28x;
+  width:200px;
   margin-left: 12px; 
   margin-right: 15px; 
- 	padding:10px;
+ 	padding:5px 12px;
   z-index:100;
-  border-radius: 24px;
+  outline: none;
+  border-radius: 6px;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 5%), 0 2px 4px 1px rgb(0 0 0 / 9%);
-  border: 1px solid grey;
+  border: 1px solid #d0d7de;
+  -webkit-writing-mode: horizontal-tb !important;
+ background-color: #f6f8fa;
+  vertical-align: middle;
+      cursor: text;
+   -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
+
+input[type=text]:focus {
+/* 	width: 50% !important; */
+  border: 2px solid #218bff !important;
+  background: white !important;
+  box-shadow: #58cced 0px 7px 15px 0px !important;
+}
+
+
 
 
 /*Orange Navbar CSS here*/
