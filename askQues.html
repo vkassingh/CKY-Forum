@@ -3,7 +3,7 @@
 <head>
   <title>Ask Question</title>
  <link rel="stylesheet" type="text/css" href="askQues.css">
-     <script src="https://cdn.ckeditor.com/ckeditor5/28.0.0/classic/ckeditor.js">
+  <script src="https://cdn.ckeditor.com/ckeditor5/28.0.0/classic/ckeditor.js"></script>
   <script src="https://use.fontawesome.com/63d20f8d5f.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src='askQues.js'></script>
@@ -18,29 +18,29 @@
   <header>
     <div class="head_container">
       <div class="logo">
-        <h3 id="brand-name"><img src="https://www.codekaroyaaro.com/img/basic-coding-for-kids.png">Forum</h3>
+        <h3 id="brand-name">
+          <a href="home.html">
+            <img src="https://www.codekaroyaaro.com/img/basic-coding-for-kids.png">Forum</h3>
+          </a>
       </div>
       <div class="menu" id="myTopnav">
         <ul>
           <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="openNav()">&#9776;</a>
-<!--           <li><a href="#"><i class="fas fa-users"></i> Users</a></li> -->
-          <li><a href="#"><i class="fas fa-tags"></i> Tags </a></li>
+          <!-- <li><a href="#"><i class="fas fa-users"></i> Users</a></li> -->
+          <li><a class="anc" href="#"><i class="fas fa-tags"></i> Tags </a></li>
           <li><input id="search" type="text" placeholder="  Search question.."></li>
-
-          <li></li>
-          <li><a href="#"> <i class="fas fa-globe"></i> Translate</a></li>
-          <li><a href="askQues.html"><button  id="add-ques">Ask Question</button></a></li>
-
+          <li><a class="anc" href="#"> <i class="fas fa-globe"></i> Translate</a></li>
+          <li><a class="ask" href="askQues.html"><button  id="add-ques">Ask Question</button></a></li>
         </ul>
       </div>
     </div>
   </header>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<!--     <a href="#"><i class="fas fa-users"></i> Users</a> -->
+    <!-- <a href="#"><i class="fas fa-users"></i> Users</a> -->
     <a href="#"><i class="fas fa-tags"></i> Tags </a>
-    <a href="#"> <i class="fa fa-filter"></i>Filter</a>
-    <a href="#"> <i class="fas fa-globe"></i> Translate</a>
+    <a href="#"><i class="fa fa-filter"></i>Filter</a>
+    <a href="#"><i class="fas fa-globe"></i> Translate</a>
     <a href="askQues.html"><button  id="add-ques">Ask Question</button></a>
   </div>
 
